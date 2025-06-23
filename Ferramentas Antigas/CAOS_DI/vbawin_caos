@@ -1,0 +1,3 @@
+#!/bin/sh
+cd /media/HD80E-SS/Solid_One/Emulação/GBA
+wine VisualBoyAdvance "D:\Solid_One\Romhacking\Traduções\GBA\CAoS [Lançada]\CAoS_DI\CAoS_E.gba"

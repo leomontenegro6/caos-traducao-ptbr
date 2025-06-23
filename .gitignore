@@ -1,0 +1,8 @@
+/*.gba
+/*.gba.pal
+/*.gba.spr
+/*.gba.bak
+/*.ss*
+*.sav
+test.bat
+copy_rom_to_anbernic.bat

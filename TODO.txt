@@ -1,0 +1,4 @@
+- Trazer fonte da versão européia, e fazer aprimoramentos nela
+- Portar gráficos traduzidos da versão européia pra americana
+- Portar splash-screens da versão européia pra americana (pedir ajuda pro bMatSantos)
+- Portar dublagem pra versão americana, como um patch opcional (pedir ajuda pro bMatSantos)
