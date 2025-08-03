@@ -4,7 +4,12 @@
 .open "caos.gba", 0x08000000
 
 ; Inserindo gráficos descomprimidos.
-; Fontes grande e pequena.
+.org 0x081C1DF8
+    .incbin "Graficos/Editados/0x1C1DF8 - Poison Curse Guard Stone LevelUp.gba"
+.org 0x0825B204
+    .incbin "Graficos/Editados/0x25B204 - Game Over.gba"
+.org 0x0826439C
+    .incbin "Graficos/Editados/0x26439C - Menu Start.gba"
 .org 0x0850A135
     .incbin "Graficos/Editados/0x50A135 - Fonte grande.gba"
 .org 0x08509875
