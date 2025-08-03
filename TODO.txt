@@ -1,13 +1,8 @@
 - Fazer aprimoramentos na fonte do jogo
 - Portar gráficos traduzidos da versão européia pra americana
-  - Localidade Study
-  - Localidade Floating Garden
-  - Localidade Underground Reservoir
-  - Localidade Underground Cemetery
-  - Localidade Forbidden Area
-  - Créditos
   - OAMs nomes tela-título
   - OAM menu "Controles"
   - Tilemap menu loja hammer
+  - Créditos
 - Portar splash-screens da versão européia pra americana (pedir ajuda pro bMatSantos)
 - Portar dublagem pra versão americana, como um patch opcional (pedir ajuda pro bMatSantos)
