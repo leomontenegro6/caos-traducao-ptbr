@@ -24,11 +24,11 @@
 .org 0x080E5BC4
     .dw nomes_tela_selecao_dados
 .org 0x0815E030
-    .dw menu_start
-.org 0x082052DC
     .dw menu_start_2
-.org 0x0827B204
+.org 0x082052DC
     .dw menu_start_3
+.org 0x0827B204
+    .dw menu_start_4
 .org 0x0815E038
     .dw nomes_bestiario
 .org 0x0815E088
@@ -87,16 +87,16 @@ nomes_tela_selecao_dados:
     .lz77gba "Graficos/Editados/0x4F7B3C - Select Copy Delete Data.gba"
     .align
 
-menu_start:
-    .lz77gba "Graficos/Editados/0x5C1854 - Menu Start.gba"
-    .align
-
 menu_start_2:
-    .lz77gba "Graficos/Editados/0x635990 - Menu Start 2.gba"
+    .lz77gba "Graficos/Editados/0x5C1854 - Menu Start 2.gba"
     .align
 
 menu_start_3:
-    .lz77gba "Graficos/Editados/0x64F7E8 - Menu Start 3.gba"
+    .lz77gba "Graficos/Editados/0x635990 - Menu Start 3.gba"
+    .align
+
+menu_start_4:
+    .lz77gba "Graficos/Editados/0x64F7E8 - Menu Start 4.gba"
     .align
 
 nomes_bestiario:

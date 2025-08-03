@@ -1,5 +1,8 @@
 <?php
 $graficos = [
+    (object)['nome' => 'Poison Curse Guard Stone LevelUp', 'offset' => '0x1C1DF8', 'tiles' => '16x12', 'codec' => '4bpp'],
+    (object)['nome' => 'Game Over', 'offset' => '0x25B204', 'tiles' => '16x4', 'codec' => '4bpp'],
+    (object)['nome' => 'Menu Start', 'offset' => '0x26439C', 'tiles' => '16x16', 'codec' => '4bpp'],
     (object)['nome' => 'Fonte pequena', 'offset' => '0x509875', 'tiles' => '1x280', 'codec' => '1bpp'],
     (object)['nome' => 'Fonte grande', 'offset' => '0x50A135', 'tiles' => '1x392', 'codec' => '1bpp'],
 ];
