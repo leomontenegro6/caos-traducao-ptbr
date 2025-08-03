@@ -23,10 +23,14 @@
     .dw copyright
 .org 0x080E5BC4
     .dw nomes_tela_selecao_dados
+.org 0x0815E030
+    .dw menu_start
 .org 0x082052DC
     .dw menu_start_2
 .org 0x0827B204
     .dw menu_start_3
+.org 0x0815E038
+    .dw nomes_bestiario
 .org 0x0815E088
     .dw menu_loja_hammer_1
 .org 0x0826032C
@@ -59,7 +63,8 @@
 ;    .dw creditos
 ;.org 0x08164C08
 ;    .dw creditos_tilemap
-
+.org 0x081604A4
+    .dw congratulations_new_record
 ; Inserindo gráficos comprimidos editados no final da rom.
 .org 0x08FB5918
 licensed_by_nintendo:
@@ -82,12 +87,20 @@ nomes_tela_selecao_dados:
     .lz77gba "Graficos/Editados/0x4F7B3C - Select Copy Delete Data.gba"
     .align
 
+menu_start:
+    .lz77gba "Graficos/Editados/0x5C1854 - Menu Start.gba"
+    .align
+
 menu_start_2:
     .lz77gba "Graficos/Editados/0x635990 - Menu Start 2.gba"
     .align
 
 menu_start_3:
     .lz77gba "Graficos/Editados/0x64F7E8 - Menu Start 3.gba"
+    .align
+
+nomes_bestiario:
+    .lz77gba "Graficos/Editados/0x5C2A24 - Nomes bestiario.gba"
     .align
 
 menu_loja_hammer_1:
@@ -147,12 +160,16 @@ localidade_chaotic_realm:
     .align
 
 ;creditos:
-;    .incbin "Graficos/Comprimidos/0xFA85A4 - Creditos.gba"
+;    .lz77gba "Graficos/Comprimidos/0xFA85A4 - Creditos.gba"
 ;    .align
 
 ;creditos_tilemap:
-;    .incbin "Graficos/Comprimidos/0xFA8DC0 - Creditos (Tilemap).gba"
+;    .lz77gba "Graficos/Comprimidos/0xFA8DC0 - Creditos (Tilemap).gba"
 ;    .align
+
+congratulations_new_record:
+    .lz77gba "Graficos/Editados/0x5F8EE8 - Congratulations New Record.gba"
+    .align
 
 ; Salvando a rom modificada.
 .close
