@@ -46,7 +46,13 @@
 .org 0x0815E038
     .dw nomes_bestiario
 .org 0x0815E088
-    .dw menu_loja_hammer_1
+    .dw menu_loja_hammer
+.org 0x0815F004
+    .dw menu_loja_hammer_tm
+.org 0x0815F094
+    .dw menu_loja_hammer_tm
+.org 0x0815F124
+    .dw menu_loja_hammer_tm
 .org 0x0826032C
     .dw localidade_castle_corridor
 .org 0x08260334
@@ -121,8 +127,12 @@ nomes_bestiario:
     .lz77gba "Graficos/Editados/0x5C2A24 - Nomes bestiario.gba"
     .align
 
-menu_loja_hammer_1:
-    .lz77gba "Graficos/Editados/0x5C9BDC - Menu Loja Hammer 1.gba"
+menu_loja_hammer:
+    .lz77gba "Graficos/Editados/0x5C9BDC - Menu Loja Hammer.gba"
+    .align
+
+menu_loja_hammer_tm:
+    .lz77gba "Graficos/Editados/0x5F6140 - Menu Loja Hammer (tm).gba"
     .align
 
 localidade_castle_corridor:

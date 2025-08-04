@@ -1,6 +1,6 @@
 - Fazer aprimoramentos na fonte do jogo
 - Portar gráficos traduzidos da versão européia pra americana
-  - Tilemap menu loja hammer
   - Créditos
+- Atualizar ano do copyright para 2025.
 - Portar splash-screens da versão européia pra americana (pedir ajuda pro bMatSantos)
 - Portar dublagem pra versão americana, como um patch opcional (pedir ajuda pro bMatSantos)
