@@ -17,6 +17,11 @@
 .org 0x08509875
     .incbin "Graficos/Editados/0x509875 - Fonte pequena.gba"
 
+; Aumentando o número de OAMs do submenu "Controles", de 2 para 3.
+; Necessário para que o OAM de "Controles" seja exibido corretamente.
+.org 0x08256C8D
+    .stringn 0x03
+
 ; Catalogando ponteiros de gráficos comprimidos e outros dados,
 ; para que sejam posteriormente atualizados, ao reinserir
 ; os gráficos na rom.
@@ -36,6 +41,8 @@
     .dw menu_start_3
 .org 0x0827B204
     .dw menu_start_4
+.org 0x08256C94
+    .dw controles_oams
 .org 0x0815E038
     .dw nomes_bestiario
 .org 0x0815E088
@@ -104,6 +111,10 @@ menu_start_3:
 
 menu_start_4:
     .lz77gba "Graficos/Editados/0x64F7E8 - Menu Start 4.gba"
+    .align
+
+controles_oams:
+    .incbin "Graficos/Editados/0x256A18 - Controles (OAMs).gba"
     .align
 
 nomes_bestiario:
