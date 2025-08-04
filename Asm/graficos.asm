@@ -10,6 +10,8 @@
     .incbin "Graficos/Editados/0x25B204 - Game Over.gba"
 .org 0x0826439C
     .incbin "Graficos/Editados/0x26439C - Menu Start.gba"
+.org 0x08266850
+    .incbin "Graficos/Editados/0x266850 - Nomes tela-titulo (OAMs).gba"
 .org 0x0850A135
     .incbin "Graficos/Editados/0x50A135 - Fonte grande.gba"
 .org 0x08509875
