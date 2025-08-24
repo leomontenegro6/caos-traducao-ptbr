@@ -5819,7 +5819,7 @@ string_900:
 
 string_901:
   .stringn "<01><00>Escolha o nível de dificuldade.", 0x06
-  .stringn "      NORMAL               DIFÍCIL", 0x06
+  .stringn "      NORMAL               DIFíCIL", 0x06
   .stringn ""
   db 0x0A
 
