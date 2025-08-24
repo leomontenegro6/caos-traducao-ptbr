@@ -330,7 +330,7 @@ string_016:
   .stringn "Isso é o que mais importa.", 0x06
   .stringn "<05><04><03><00><07><01>Acho que agora entendi.", 0x06
   .stringn "Obrigado, Yoko.", 0x06
-  .stringn "<05><04><03><04><07><05>Rí, rí, rí!", 0x06
+  .stringn "<05><04><03><04><07><05>Hi hi hi!", 0x06
   .stringn "De nada! Fazia tempo que alguém", 0x06
   .stringn "não me agradecia por algo.", 0x06
   .stringn "<05><09>Ah, esqueci de perguntar.", 0x06
@@ -511,7 +511,7 @@ string_019:
   .stringn "do meu lado?", 0x06
   .stringn "<05><04><03><00><07><01>N-não. Não é o que eu", 0x06
   .stringn "quis dizer!", 0x06
-  .stringn "<05><04><03><04><07><05>Rá, rá, rá!", 0x06
+  .stringn "<05><04><03><04><07><05>Ha ha ha!", 0x06
   .stringn "É muito divertido", 0x06
   .stringn "te provocar.", 0x06
   .stringn "<05><09>Mas não é hora de ficar", 0x06
@@ -1062,7 +1062,7 @@ string_037:
   .stringn "mal havia acordado, sabe.", 0x06
   .stringn "<05><09>Mas, deixando isso pra lá,", 0x06
   .stringn "tudo deu certo.", 0x06
-  .stringn "Rí, rí, rí...", 0x06
+  .stringn "Hi hi hi...", 0x06
   .stringn "<05><09>...", 0x06
   .stringn "Eu nunca esquecerei", 0x06
   .stringn "sua força e coragem.", 0x06
@@ -1143,7 +1143,7 @@ string_038:
   .stringn "<05><04><03><01><07><02>É. Você mudou MESMO.", 0x06
   .stringn "O Soma de antes nunca", 0x06
   .stringn "diria algo assim.", 0x06
-  .stringn "<05><04><03><00><07><01>Rá, rá, rá!", 0x06
+  .stringn "<05><04><03><00><07><01>Ha ha ha!", 0x06
   .stringn "<05><09>Lembre-se. Dentro de mim,", 0x06
   .stringn "o poder de Drácula", 0x06
   .stringn "está adormecido.", 0x06
@@ -1231,7 +1231,7 @@ string_040:
   .stringn "Dá uma passadinha lá depois!", 0x06
   .stringn "Vou te fazer um ótimo negócio.", 0x06
   .stringn "<05><09>Vou ficar te esperando!", 0x06
-  .stringn "Gáh, rá, rá, rá...", 0x06
+  .stringn "Gah, ha ha ha...", 0x06
   .stringn "<05><04><02><01><03><00><07><01>Uma loja?", 0x06
   .stringn "Esse cara é estranho...", 0x06
   .stringn "<05><04>"
@@ -1370,7 +1370,7 @@ string_046:
   .stringn "a sério?", 0x06
   .stringn "<05><04><03><01><07><02>P-por nada.", 0x06
   .stringn "Deixa pra lá.", 0x06
-  .stringn "Rí, rí, rí!", 0x06
+  .stringn "Hi hi hi!", 0x06
   .stringn "<05><09>Ei Soma, não acha que seria", 0x06
   .stringn "melhor você também ficar aqui?", 0x06
   .stringn "<05><04><03><00><07><01>Não. Arikado disse que eu", 0x06

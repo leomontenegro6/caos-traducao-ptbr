@@ -79,10 +79,20 @@
     .dw localidade_top_floor
 .org 0x0826038C
     .dw localidade_chaotic_realm
-;.org 0x0815CDEC
-;    .dw creditos
-;.org 0x08164C08
-;    .dw creditos_tilemap
+.org 0x080E5BCC
+    .dw creditos_1
+.org 0x080E5BD4
+    .dw creditos_2
+.org 0x080E5BDC
+    .dw creditos_3
+.org 0x080E7B58
+    .dw creditos_tm
+.org 0x080E81E8
+    .dw creditos_tm
+.org 0x080E8878
+    .dw creditos_tm
+.org 0x080E8F08
+    .dw creditos_tm
 .org 0x081604A4
     .dw congratulations_new_record
 ; Inserindo gráficos comprimidos editados no final da rom.
@@ -187,13 +197,21 @@ localidade_chaotic_realm:
     .lz77gba "Graficos/Editados/0x6431AC - Localidade Chaotic Realm.gba"
     .align
 
-;creditos:
-;    .lz77gba "Graficos/Comprimidos/0xFA85A4 - Creditos.gba"
-;    .align
+creditos_1:
+    .lz77gba "Graficos/Editados/0x4F8584 - Creditos 1.gba"
+    .align
 
-;creditos_tilemap:
-;    .lz77gba "Graficos/Comprimidos/0xFA8DC0 - Creditos (Tilemap).gba"
-;    .align
+creditos_2:
+    .lz77gba "Graficos/Editados/0x4F8CC8 - Creditos 2.gba"
+    .align
+
+creditos_3:
+    .lz77gba "Graficos/Editados/0x4F9C5C - Creditos 3.gba"
+    .align
+
+creditos_tm:
+    .lz77gba "Graficos/Editados/0x50C6B0 - Creditos (tm).gba"
+    .align
 
 congratulations_new_record:
     .lz77gba "Graficos/Editados/0x5F8EE8 - Congratulations New Record.gba"
