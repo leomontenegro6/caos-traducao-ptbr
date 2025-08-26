@@ -29,4 +29,8 @@ echo ==Inserindo graficos.==
 echo ==Inserindo textos traduzidos.==
 .\Ferramentas\armips-lzss\armips-lzss-v1.exe .\Asm\script_castlevania.asm
 
+echo ==Inserindo tela de splash.==
+.\Ferramentas\armips-lzss\armips-lzss-v1.exe .\Asm\splash.asm
+
 echo Done.
+pause
