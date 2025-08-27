@@ -43,12 +43,7 @@ if !betterdroprates! equ 1 (
     .\Ferramentas\flips.exe --apply ".\Arquivos Patches\betterdroprates\Castlevania Aria of Sorrow Better Drop Rates.ips" .\caos.gba .\caos.gba
 )
 
-if !randomizer! equ 1 (
-    echo ==Aplicando randomizer.==
-    .\Ferramentas\flips.exe --apply ".\Arquivos Patches\randomizer\randomizer.ips" .\caos.gba .\caos.gba
-)
-
-echo ==Expandindo a rom para 16mb==
+echo ==Expandindo a rom para 16mb.==
 .\Ferramentas\armips-lzss\armips-lzss-v1.exe .\Asm\expansor_rom.asm
 
 echo ==Inserindo graficos.==
@@ -119,6 +114,11 @@ if !dublagem! equ 1 (
     )
     echo ==Inserindo dublagem.==
     .\Ferramentas\armips-lzss\armips-lzss-v1.exe .\Asm\inseredub.asm
+)
+
+if !randomizer! equ 1 (
+    echo ==Aplicando randomizer.==
+    .\Ferramentas\flips.exe --apply ".\Arquivos Patches\randomizer\randomizer.ips" .\caos.gba .\caos.gba
 )
 
 echo Done.

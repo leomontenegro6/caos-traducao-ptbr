@@ -1,2 +1,3 @@
 - Na fonte pequena, reduzir largura VWF do "ô", "ó", do "é" e do "í" em 1 píxel
-- Atualizar splash-screen para creditar mais envolvidos.
+- Na fonte grande, aumentar altura do "ú"
+- Atualizar splash-screens para creditar mais envolvidos.
