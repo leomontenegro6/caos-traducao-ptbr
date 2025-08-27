@@ -1,3 +1,2 @@
 - Na fonte pequena, reduzir largura VWF do "ô", "ó", do "é" e do "í" em 1 píxel
-- Portar splash-screens da versão européia pra americana (pedir ajuda pro bMatSantos)
-- Portar dublagem pra versão americana, como um patch opcional (pedir ajuda pro bMatSantos)
+- Atualizar splash-screen para creditar mais envolvidos.

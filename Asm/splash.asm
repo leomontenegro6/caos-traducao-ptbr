@@ -17,16 +17,28 @@
 .definelabel screenTimer, IWRAM_START
 .definelabel fadeTimer, IWRAM_START+2
 
-.ORG 0x08700000
+.ORG 0x08FD9720
 	.ALIGN
 	gfxSplash:
-		.INCBIN "Graficos/Editados/AoS Splash.img.bin"
+		.IF dublagem == 1
+			.INCBIN "Graficos/Editados/AoS Splash.img.bin"
+		.ELSEIF dublagem == 0
+			.INCBIN "Graficos/Editados/AoS Legendado Splash.img.bin"
+		.ENDIF
 	.ALIGN
 	mapSplash:
-		.INCBIN "Graficos/Editados/AoS Splash.map.bin"
+		.IF dublagem == 1
+			.INCBIN "Graficos/Editados/AoS Splash.map.bin"
+		.ELSEIF dublagem == 0
+			.INCBIN "Graficos/Editados/AoS Legendado Splash.map.bin"
+		.ENDIF
 	.ALIGN
 	palSplash:
-		.INCBIN "Graficos/Editados/AoS Splash.pal.bin"
+		.IF dublagem == 1
+			.INCBIN "Graficos/Editados/AoS Splash.pal.bin"
+		.ELSEIF dublagem == 0
+			.INCBIN "Graficos/Editados/AoS Legendado Splash.pal.bin"
+		.ENDIF
 	.ALIGN
 
 splash_rt:

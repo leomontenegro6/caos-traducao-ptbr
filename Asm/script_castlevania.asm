@@ -3926,7 +3926,7 @@ string_530:
   db 0x0A
 
 string_531:
-  .stringn "<01><00>Ataca com um machago gigante.", 0x06
+  .stringn "<01><00>Ataca com um machado gigante.", 0x06
   .stringn ""
   db 0x0A
 

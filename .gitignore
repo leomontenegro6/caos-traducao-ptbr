@@ -4,5 +4,6 @@
 /*.gba.bak
 /*.ss*
 *.sav
+Asm/inseredub*.asm
 test.bat
 copy_rom_to_anbernic.bat
