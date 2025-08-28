@@ -3,6 +3,11 @@
 .gba
 .open "caos.gba", 0x08000000
 
+; Ajustes menores na tabela das fontes VWF, de modo a corrigir larguras
+; de caracteres acentuados específicos.
+.org 0x080E2EC0
+    .incbin "Asm/tabela_vwf_fonte_pequena.bin"
+
 ; Inserindo gráficos descomprimidos.
 .org 0x081C1DF8
     .incbin "Graficos/Editados/0x1C1DF8 - Poison Curse Guard Stone LevelUp.gba"
