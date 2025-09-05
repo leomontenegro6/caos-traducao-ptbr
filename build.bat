@@ -1,4 +1,13 @@
 :: Arquivo .bat que remonta a rom traduzida.
+:: Uso: build.bat [-recolor] [-sotc] [-dublagem] [-betterdroprates] [-randomizer=SEED]
+:: Onde:
+::   -recolor: Aplica o patch de recoloração (opcional)
+::   -sotc: Aplica o patch de Symphony of the Colors (opcional, não pode
+::          ser usado junto com -recolor)
+::   -dublagem: Insere os arquivos de dublagem (opcional)
+::   -betterdroprates: Aplica o patch de melhores taxas de drop (opcional)
+::   -randomizer=SEED: Usa a rom randomizada com a seed SEED (opcional)
+::                     (gera erro se o arquivo não existir)
 @echo off
 setlocal EnableDelayedExpansion
 echo ==Gerando rom traduzida.==
@@ -9,6 +18,7 @@ set sotc=0
 set dublagem=0
 set betterdroprates=0
 set randomizer=0
+set randomizer_seed=0
 
 REM Percorre todos os argumentos
 for %%A in (%*) do (
@@ -16,7 +26,15 @@ for %%A in (%*) do (
     if /I "%%A"=="-sotc" set sotc=1
     if /I "%%A"=="-dublagem" set dublagem=1
     if /I "%%A"=="-betterdroprates" set betterdroprates=1
-    if /I "%%A"=="-randomizer" set randomizer=1
+
+    REM Checa se argumento começa com -randomizer=
+    echo %%A | findstr /B /I "\-randomizer" >nul
+    if !randomizer! equ 1 (
+        set randomizer_seed=%%A
+    )
+    if !errorlevel! == 0 (
+        set randomizer=1
+    )
 )
 
 REM Garante que apenas um modo de cor será aplicado
@@ -26,7 +44,18 @@ if !recolor! equ 1 if !sotc! equ 1 (
 )
 
 del caos.gba
-copy orig.gba caos.gba
+if !randomizer! equ 1 (
+    if not exist aosrand_!randomizer_seed!.gba (
+        echo ERRO: Arquivo aosrand_!randomizer_seed!.gba nao encontrado.
+        exit /b 1
+    )
+
+    echo ==Aplicando randomizer.==
+    copy aosrand_!randomizer_seed!.gba caos.gba
+    .\Ferramentas\armips-lzss\armips-lzss-v1.exe .\Asm\pos_randomizer.asm
+) else (
+    copy orig.gba caos.gba
+)
 
 if !recolor! equ 1 (
     echo ==Aplicando IPS do recolor.==
@@ -114,11 +143,6 @@ if !dublagem! equ 1 (
     )
     echo ==Inserindo dublagem.==
     .\Ferramentas\armips-lzss\armips-lzss-v1.exe .\Asm\inseredub.asm
-)
-
-if !randomizer! equ 1 (
-    echo ==Aplicando randomizer.==
-    .\Ferramentas\flips.exe --apply ".\Arquivos Patches\randomizer\randomizer.ips" .\caos.gba .\caos.gba
 )
 
 echo Done.

@@ -80,7 +80,7 @@ string_011:
   db 0x0A
 
 string_012:
-  .stringn "<01><00><03><00><07><01>Oh...Mmm......", 0x06
+  .stringn "<01><00><03><00><07><01>Oh... Mmm......", 0x06
   .stringn "<05><04><03><01><07><02>Ei, ele está acordando.", 0x06
   .stringn "<05><04><03><00><07><01>Onde estou...?", 0x06
   .stringn "<05><09><03><00><07><01>OPA!", 0x06
@@ -371,7 +371,7 @@ string_017:
   .stringn "É um criminoso?", 0x06
   .stringn "<05><04><03><05><07>", 0x06
   .stringn "Não. Eu tenho amnésia.", 0x06
-  .stringn "Disseram-me que eu estava", 0x06
+  .stringn "Me disseram que eu estava", 0x06
   .stringn "num acidente em 1999.", 0x06
   .stringn "<05><09>Quando eu acordei no hospital,", 0x06
   .stringn "havia esquecido meu nome", 0x06
@@ -441,7 +441,7 @@ string_018:
   .stringn "<05><04><03><03><07><04>Eu nasci no mesmo dia que", 0x06
   .stringn "Drácula morreu.", 0x06
   .stringn "<05><09>Sendo assim, isso implica dizer", 0x06
-  .stringn "que eu sou o PRõPRIO", 0x06
+  .stringn "que eu sou o PRÓPRIO", 0x06
   .stringn "Conde Drácula!", 0x06
   .stringn "<05><04><03><00><07><01>Não pode ser verdade!", 0x06
   .stringn "Você foi tão gentil e amigável", 0x06
@@ -456,7 +456,7 @@ string_018:
   .stringn "<05><09>Conte-me, por favor.", 0x06
   .stringn "Que tipo de poder é esse?", 0x06
   .stringn "<05><04><03><00><07><01>.........", 0x06
-  .stringn "Disseram-me que se chama", 0x06
+  .stringn "Me disseram que se chama", 0x06
   .stringn "\"Poder da Dominância\"...", 0x06
   .stringn "<05><04><03><08><07><04>O QUÊ?! \"DOMINÂNCIA\"?!", 0x06
   .stringn "Seu garoto imbecil!", 0x06
@@ -615,7 +615,7 @@ string_021:
   .stringn "<05><04><02><01><03><05><07>", 0x06
   .stringn "Parece que seu poder negro", 0x06
   .stringn "impulsionou o retorno", 0x06
-  .stringn "de minhas lembranças.", 0x06
+  .stringn "das minhas lembranças.", 0x06
   .stringn "<05><09>Justo como eu imaginava.", 0x06
   .stringn "Eu possuo uma história", 0x06
   .stringn "extensa envolvendo Drácula.", 0x06
@@ -636,12 +636,12 @@ string_021:
   .stringn "escrito na profecia...", 0x06
   .stringn "<05><04><03><05><07><08>Então eu devo matá-lo!", 0x06
   .stringn "Esse é o meu destino.", 0x06
-  .stringn "<05><04><03><00><07><01>E você chegou a encontrar-se", 0x06
+  .stringn "<05><04><03><00><07><01>E você chegou a se encontrar", 0x06
   .stringn "com um homem chamado Graham?", 0x06
   .stringn "<05><04><03><05><07><08>Graham?", 0x06
   .stringn "Ah, está se referindo àquele", 0x06
   .stringn "missionário, certo?", 0x06
-  .stringn "<05><09>Encontrei-me com ele há pouco.", 0x06
+  .stringn "<05><09>Me encontrei com ele há pouco.", 0x06
   .stringn "Mas quando ele viu meu rosto,", 0x06
   .stringn "se virou e correu.", 0x06
   .stringn "<05><04><03><00><07><01>Bom, ele me disse que era", 0x06
@@ -650,14 +650,14 @@ string_021:
   .stringn "de Conde Drácula vivos dentro", 0x06
   .stringn "dele.", 0x06
   .stringn "<05><09>Mas acho difícil acreditar", 0x06
-  .stringn "que ele é o Drácula.", 0x06
+  .stringn "que ele seja o Drácula.", 0x06
   .stringn "Ao invés dele...", 0x06
   .stringn "<05><09>Acho que... Não, esqueça.", 0x06
   .stringn "É só um palpite que espero", 0x06
   .stringn "que seja improvável.", 0x06
   .stringn "<05><04><03><00><07><01>Hã?", 0x06
   .stringn "<05><04><03><05><07><08>Mas mesmo pressupondo que ele", 0x06
-  .stringn "é o Drácula, ainda não sou", 0x06
+  .stringn "seja o Drácula, ainda não sou", 0x06
   .stringn "capaz de matá-lo.", 0x06
   .stringn "<05><04><03><00><07><01>Por que não?", 0x06
   .stringn "<05><04><03><05><07><08>Preciso da minha arma.", 0x06
@@ -695,7 +695,7 @@ string_022:
   .stringn "posso tirá-lo daqui num", 0x06
   .stringn "piscar de olhos.", 0x06
   .stringn "<05><09>Mas você, no entanto, está", 0x06
-  .stringn "com parte de minha propridade", 0x06
+  .stringn "com parte de minha propriedade", 0x06
   .stringn "em mãos.", 0x06
   .stringn "<05><09>As almas de MEUS demônios", 0x06
   .stringn "estão sob SEU controle.", 0x06
@@ -781,7 +781,7 @@ string_027:
   db 0x0A
 
 string_028:
-  .stringn "<01><00><03><00><07><01>O...O que é isso?", 0x06
+  .stringn "<01><00><03><00><07><01>O... O que é isso?", 0x06
   .stringn "<05><04><02><01><03><00><07><01>Aaah! Algo está...", 0x06
   .stringn "fluindo até mim!", 0x06
   .stringn "<05><09><02><01>NÃO! ESPERE!", 0x06
@@ -908,7 +908,7 @@ string_031:
 string_032:
   .stringn "<01><00><03><07><07><01>PARE!", 0x06
   .stringn "JÁ BASTA!", 0x06
-  .stringn "<05><04><03><05><07><08>P...Por que...", 0x06
+  .stringn "<05><04><03><05><07><08>P... Por que...", 0x06
   .stringn "Por que você não me mata?", 0x06
   .stringn "<05><04><03><07><07><01>Você pegou leve comigo.", 0x06
   .stringn "Eu posso sentir.", 0x06
@@ -954,7 +954,7 @@ string_034:
   .stringn "Mas não sei se conseguirei", 0x06
   .stringn "sozinho...", 0x06
   .stringn "<05><04><02><01><03><01><07><02>Você não está sozinho.", 0x06
-  .stringn "<05><04><03><07><07><01>O...O quê?", 0x06
+  .stringn "<05><04><03><07><07><01>O... O quê?", 0x06
   .stringn "<05><04><03><01><07><02>Todos que estão no castelo", 0x06
   .stringn "combinaram suas forças", 0x06
   .stringn "para contactá-lo.", 0x06
@@ -996,7 +996,7 @@ string_034:
   .stringn "<05><09>Você consegue.", 0x06
   .stringn "Porque eu acredito em você.", 0x06
   .stringn "<05><04><03><07><07><01>Mina...", 0x06
-  .stringn "<05><09>Certo. Desejem-me boa sorte!", 0x06
+  .stringn "<05><09>Certo. Me desejem boa sorte!", 0x06
   .stringn "<05><04>"
   db 0x0A
 
@@ -1110,7 +1110,7 @@ string_037:
   .stringn "<05><09>Em nome de minha mãe,", 0x06
   .stringn "muito obrigado.", 0x06
   .stringn "<05><04><02><01><03><01><07><02>...Acorda...", 0x06
-  .stringn "Acorda...Aco...", 0x06
+  .stringn "Acorda... Aco...", 0x06
   .stringn "<05><04>"
   db 0x0A
 
@@ -1127,7 +1127,7 @@ string_038:
   .stringn "<05><09>Pensei que você nunca mais", 0x06
   .stringn "acordaria.", 0x06
   .stringn "<05><04><02><01><03><00><07><01>Eu ouvi as vozes de todos...", 0x06
-  .stringn "<05><09>Vocês me salvaram...de novo!", 0x06
+  .stringn "<05><09>Vocês me salvaram... de novo!", 0x06
   .stringn "<05><04><03><01><07><02>DE NOVO?", 0x06
   .stringn "<05><04><03><00><07><01>Sim... Eu não teria vencido", 0x06
   .stringn "a última batalha sozinho.", 0x06
@@ -1412,7 +1412,7 @@ string_047:
   .stringn "Você não acha ele um pouco", 0x06
   .stringn "assustador?", 0x06
   .stringn "<05><04><03><00><07><01>Não precisa se preocupar.", 0x06
-  .stringn "Ele é um cara legal.", 0x06
+  .stringn "Ele é uma boa pessoa.", 0x06
   .stringn "<05><04><03><01><07><02>Mas olhe todas aquelas armas", 0x06
   .stringn "bem ali...", 0x06
   .stringn "<05><04><03><00><07><01>Ah, aquilo? Ele me disse que", 0x06
@@ -1573,7 +1573,7 @@ string_066:
   db 0x0A
 
 string_067:
-  .stringn "<01><00><03><01><07><02>Bem...Seja bem-vindo.", 0x06
+  .stringn "<01><00><03><01><07><02>Bem... Seja bem-vindo.", 0x06
   .stringn "Soma...? É você mesmo?", 0x06
   .stringn "<05><04><03><07><07><01>É...", 0x06
   .stringn "<05><04><03><01><07><02>O que houve com você?", 0x06
@@ -1617,7 +1617,7 @@ string_067:
 string_068:
   .stringn "<01><00><03><01><07><02>Qual o problema, Soma?", 0x06
   .stringn "Você está estranho.", 0x06
-  .stringn "<05><04><03><07><07><01>I...Isso não é nada.", 0x06
+  .stringn "<05><04><03><07><07><01>I... Isso não é nada.", 0x06
   .stringn "<05><04><03><01><07><02>Você não costuma", 0x06
   .stringn "esconder algo de mim!", 0x06
   .stringn "<05><04><03><07><07><01>......", 0x06
@@ -1631,8 +1631,8 @@ string_068:
 string_069:
   .stringn "<01><00><03><01><07><02>Seja bem-vindo.", 0x06
   .stringn "Tenho uma mensagem", 0x06
-  .stringn "de Arikado para você.", 0x06
-  .stringn "<05><04><03><00><07><01>De Arikado?", 0x06
+  .stringn "do Arikado para você.", 0x06
+  .stringn "<05><04><03><00><07><01>Do Arikado?", 0x06
   .stringn "<05><04><03><01><07><02>Sim. É... ", 0x06
   .stringn "<05><09>"
   db 0x0A
@@ -1750,7 +1750,7 @@ string_080:
   .stringn "<01><00><03><00><07><01>Entendo... ", 0x06
   .stringn "<05><04><03><01><07><02>Venha aqui mais tarde.", 0x06
   .stringn "Talvez eu receba outra", 0x06
-  .stringn "mensagem de Arikado.", 0x06
+  .stringn "mensagem do Arikado.", 0x06
   .stringn "<05><04><03><00><07><01>Virei até aqui sempre", 0x06
   .stringn "que puder.", 0x06
   .stringn "<05><04>"
