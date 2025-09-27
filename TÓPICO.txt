@@ -1,0 +1,201 @@
+[img]https://i.imgur.com/BqWXOWH.png[/img]
+
+—————————————————–
+[b]Informações[/b]
+—————————————————–
+
+[b]Nome do jogo:[/b] Castlevania - Aria of Sorrow
+[b]Plataforma:[/b] Gameboy Advance
+[b]Gênero[/b]: Plataforma / Metroidvania / RPG de Ação
+[b]Grupo:[/b] Trans-Center
+[b]Responsável:[/b] Solid_One
+[b]Versão:[/b] Européia
+[b]Jogadores[/b]: 1
+
+—————————————————–
+[b]Enredo[/b]
+—————————————————–
+
+Terceiro e último jogo da série castlevania lançado pra Gameboy Advance. Para uns é considerado o melhor jogo de castlevania feito para GBA, e um dos melhores da série. É bem parecido com o famoso "Symphony of the Night" de PS1.
+
+Diferente de todos os jogos de castlevania até então, esse é o primeiro onde os acontecimentos são no futuro e não no passado como antes. O ano dos acontecimentos desse jogo é 2035. O personagem principal se chama Soma Cruz. É um estudante que está fazendo intercâmbio, estudando no Japão.
+
+Tudo começa quando no dia do primeiro eclipse solar do século XXI, Soma está indo até o templo de sua amiga de infância Mina Hakuba para ver o eclipse com ela. Ao chegar lá, depara-se com a escadaria antes do tempo, que já estava acostumado em subí-la para chegar ao templo.
+
+Porém, estranhamente ele tem uma sensação ruim, como se fosse algo tentando evitar que ele se aproximasse do eclipse. Mesmo com essa sensação medonha a ponto de lhe causar um pouco de tontura, continuou indo em frente. Ao chegar ao topo, anormalmente ele perdeu a consciência. E quando acordou, deparou-se dentro do castelo do Drácula, junto de Mina e outra pessoa estranha.
+
+Lá, ele descobre que possui poderes especiais de absorver as almas dos inimigos que mata. E se vê numa situação onde se não agir, ele e Mina morrerão.
+
+Começa então sua jornada pelo castelo para descobrir a verdade sobre esses seus poderes especiais, e para evitar que Drácula suba ao trono do castelo.
+
+—————————————————–
+[b]Sobre a tradução[/b]
+—————————————————–
+
+Comecei a traduzir esse jogo mais ou menos em outubro de 2006, visto que não havia tradução decente desse jogo na época. É um dos melhores jogos de GBA, e entre os três jogos de Castlevania lançados pra Gameboy Advance, esse é considerado o melhor.
+
+A iniciativa primeiramente foi do spyblack nos tempos que ele era da MiB. Foi ele que descobriu os alfabetos do jogo e também ele quem fez a primeira imagem de splash do CAOS.
+
+Tive que pesquisar vários detalhes sobre nomes de espadas usadas em guerras no passado, nomes de alguns ítens (mais destacadamente as "guloseimas"), alguns nomes de inimigos na qual foram inspirados em várias mitologias, etc.
+
+A maior parte dos textos foi facilmente encontrada. E sobre os acentos, como usei a rom européia, o alfabeto já possuía vários acentos e caracteres provindos do idioma francês e do alemão. Como não haviam todos, e o spyblack havia achado o alfabeto, eu troquei alguns caracteres acentuados inúteis, como "ù", "ì", "ö", pelos que faltavam. Por isso que, se por acaso alguém escolher o idioma francês ou alemão, eles estarão com uns caracteres estranhos, sem falar que talvez parte dos gráficos estejam em português ao invés de alemão ou francês.
+
+Posteriormente, praticamente tudo quanto é gráfico comprimido desse jogo foi modificado. Vários nomes que realmente mereciam ser modificados, o foram. Tudo isso graças ao grande membro da TC chamado Fallen_Soul e seus esforços quanto a isso. Sem ele, as versões posteriores à 1.0 ainda não existiriam.
+
+Em 2008, Hyllian reapareceu na cena de romhacking brasileira e lançou uma tradução para sua continuação, Castlevania Dawn of Sorrow, de NDS, onde eu o ajudei um pouco editando gráficos mais complexos. Com essa tradução, percebeu-se vários erros da localização americana do Aria of Sorrow para GBA. Assim sendo, em meados de 2010, fiz uma revisão textual completa na mesma, de modo a sincronizar os termos das traduções (Poder da Dominância), bem como dar uma naturalidade e sentido maior à história do jogo.
+
+A versão 2.2 da tradução foi lançada em 2017, sendo a definitiva até então. Ela deveria ser lançada em meados de 2010, em conjunto com uma possível revisão textual também na tradução do Dawn of Sorrow para sincronizar termos com outras traduções de jogos de Castlevania que participei. No entanto, como o corre-corre da cidade é... grande, eu ainda não tive tempo de parar pra ver o Dawn of Sorrow, então esta versão foi liberada em 2017.
+
+Já esta versão 2.3 nova, ela basicamente conta com uma fandublagem para português brasileiro, iniciada pelo grupo "Stardust Studios" no começo de 2024, e disponibilizada no fim do mesmo. Foi criada com muito afinco por alguns fandubladores que conseguiram dar voz a todos os personagens e monstros do jogo que possuíam vozes em japonês. Junto a áudios com qualidade bem próxima aos originais, essa versão também conta com splash-screens novas, cortesia de um colega romhacker chamado bMatSantos. Para os que prefiram as vozes originais em japonês, também foi disponibilizada uma versão para este fim.
+
+Esperamos que apreciem este trabalho, tanto quanto nós.
+
+—————————————————–
+[b]Equipe[/b]
+—————————————————–
+
+[list]
+[li]Solid One : Tradução, revisão, gráficos e romhacking;[/li]
+[li]Fallen_Soul : Romhacking;[/li]
+[li]spyblack : Suporte.[/li]
+[li]kmikz : Primeira splash-screen.[/li]
+[li]bMatSantos : Novas splash-screens.[/li]
+[li]Stardust Studios : Dublagem português brasileira, feita pelos membros:
+[list]
+      [li]Neko Belmont : Direção de Dublagem.[/li]
+      [li]Máquina de Dublagens : Voz de Soma Cruz.[/li]
+      [li]Catymy : Vozes de Mina Hakuba, Yoko Belnades, e a Aprendiz de Bruxa.[/li]
+      [li]David Mendes : Vozes de Graham Jones, Alastor, Cagnazzo, Lubicante e Caça-Cabeças (fase 3).[/li]
+      [li]Edson Santos : Vozes de Julius Belmont, Caça-Cabeças (fase 2), e Balore.[/li]
+      [li]Harukandy : Vozes de Perséfone, Kali e Valquíria.[/li]
+      [li]Mikansora : Vozes do Hammer e do Diabo.[/li]
+      [li]Cammy Kaishi : Vozes da Súcubo e da Caça-Cabeças (fase 1).[/li]
+ [/list]
+[/li]
+[/list]
+
+—————————————————–
+[b]Status da tradução[/b]
+—————————————————–
+
+[b]Textos:[/b] 100%
+[b]Acentos:[/b] 100%
+[b]Gráficos:[/b] 100%
+[b]Ponteiros:[/b] 100%
+[b]Áudios:[/b] 100%
+
+—————————————————–
+[b]Ferramentas[/b]
+—————————————————–
+
+[i]- CAOSFUCkER[/i]
+
+Esse foi o programa que Fallen_Soul desenvolveu. Com ele, dá pra extrair e reinserir 99,9% dos gráficos/tilemaps do jogo. Extrai e reinsere todos os gráficos que aparecem na versão européia, quando se escolhe o idioma inglês. Toda a parte gráfica comprimida, eu editei usando este programa.
+
+O programa extrai todos os gráficos para uma subpasta de nome GFX que está junto ao programa, para o usuário editar. Pelo Tile Molester, Você pode editar os arquivos usando o codec 4bpp linear reversed-order, que é usado pela maioria esmagadora dos jogos de GBA, e alguns de DS. Caso queira pelo Tile Layer Pro, basta escolher o formato para GBA que deve servir. Na reinserção, o programa recomprime os dados e os insere a partir do endereço de memória 0x00700000, inserindo todos em sequência, um após o outro.
+
+Para usar o programa, é por linha de comando. Em suma, o programa é simples e possui apenas dois comandos:
+"caosGfx.exe -d <NomeDoArquivoDaRom>" e "caosGfx.exe -i <NomeDoArquivoDaRom>"
+
+Com a primeira opção "-d" ([b]D[/b]ump), o programa extrai os dados. E com a segunda opção "-i" ([b]I[/b]nsert), o programa reinsere os dados.
+
+A única coisa na rom que o programa não extrai/reinsere ainda, é o tilemap referente aos créditos finais do jogo. Mas de resto, dá pra alterar tudo.
+
+O link de download da ferramenta está nos anexos, no rodapé do tópico.
+
+[i]- CAOS Dumper / Inserter[/i]
+
+Esse foi uma ferramenta que eu desenvolvi em Pascal lá em 2009 para extrair e reinserir os textos da versão européia do jogo, tomando por base as tabelas de ponteiros. Foi um dos primeiros dumper/inserter que eu desenvolvi.
+
+O programa extrai todos os textos do jogo para um arquivo de nome "CAOSSCPT.txt", utilizando de uma separação de tags rudimentar, separando blocos em traços e usando elementos em sintaxe similar a HTML para simular as tags de controle do jogo. Há um suporte básico à fonte acentuada provindo da rom européia, exceto que fazendo a troca de caracteres como "ä" para "ã" por exemplo.
+
+De forma similar, o programa também é capaz de reinserir os scripts do jogo, atualizando automaticamente a tabela de ponteiros, permitindo ao usuário contornar quaisquer problemas de falta de espaço. Na reinserção, o programa insere os textos a partir do endereço de memória 0x006511C0.
+
+Para usar o programa, é por linha de comando. Basta seguir os passos:
+
+[list type=decimal]
+[li]Crie uma cópia da rom original e copie-a para a mesma pasta onde situa-se o executável CAOS_DI.exe;[/li]
+[li]Renomeie a rom para um nome simples, preferencialmente em padrão 8.3. Ex.: caos_e.gba;[/li]
+[li]Execute o programa e digite o nome do arquivo da rom, quando solicitado (caos_e.gba);[/li]
+[li]Em seguida, digite o código da operação que deseja realizar, onde 'e' extrai textos e 'i' insere;[/li]
+[li]Se optado por extrair, o programa criará o arquivo CAOSSCPT.txt, para posterior tradução. Se optado por inserir, ele modificará a rom fornecida, tomando por base a existência do arquivo CAOSSCPT.txt na mesma pasta, bem como levando em consideração as modificações feitas no mesmo.[/li]
+[/list]
+
+O link de download da ferramenta também está nos anexos, no rodapé do tópico.
+
+[i]- CAOS VWF Liner[/i]
+
+Essa foi uma ferramenta complementar ao Dumper / Inserter acima, e seu propósito é analisar os textos do CAOSSCPT.txt, linha por linha, de modo a identificar quais delas passarão da margem da janela ou não. Eu a criei pra agilizar no processo de revisão e teste ingame.
+
+A ferramenta funciona da seguinte maneira: 
+
+[list type=decimal]
+[li]Toma-se por base a largura, em píxels, de cada caractere da fonte VWF dos textos do jogo;[/li]
+[li]Toma-se por base a largura, em píxels, da janela de textos comum, que é de cerca de 170 píxels;[/li]
+[li]Calcula a somatória de píxels de todos os caracteres de uma determinada linha de diálogo;[/li]
+[li]Compara a somatória do item acima com a largura da janela;[/li]
+[li]Se a somatória do item 3 passar a do item 4, é emitido um aviso na tela dizendo a linha do ocorrido e a quantidade de píxels que ultrapassou.[/li]
+[/list]
+
+Para usar o programa, basta garantir que tanto o executável "CAOS_VWF.EXE" como o arquivo "CAOSSCPT.txt" estejam na mesma pasta, e executar o programa.
+
+A ferramenta está junto com o link do Dumper / Inserter citado acima, no rodapé do tópico.
+
+—————————————————–
+[b]Changelog[/b]
+—————————————————–
+
+[b]Versão 2.3[/b] - 31/12/24
+Quinto lançamento. Versão Européia
+- Adicionada versão dublada em português brasileiro, pelo grupo Stardust Studios;
+- Mantida versão com áudios originais, para caso jogadores prefiram jogar sem a dublagem PT-BR;
+- Adicionadas novas splash-screens, tanto pra versão dublada como a com áudios originais.
+
+[b]Versão 2.2[/b] - 11/11/17
+Quarto lançamento. Versão Européia
+- Sincronizados termos com a tradução de Dawn of Sorrow, feita por Hyllian em 2008;
+- Revisados scripts para dar uma naturalidade e sentido maior à história do jogo;
+- Efetuadas correções gráficas menores, de modo a evitar abreviações.
+
+[b]Versão 2.1[/b] - 31/01/08
+[spoiler]
+Terceiro lançamento. Versão Européia
+- Algumas correções ortográficas minuciosas;
+- Algumas correçõezinhas gráficas;
+- Modificação dos créditos finais do jogo, o que seria correspondente ao 0,1% restante da parte gráfica;
+- Remoção da splash screen.
+[/spoiler]
+
+[b]Versão 2.0[/b] - 01/06/07
+[spoiler]
+Segundo lançamento. Versão Européia
+- Várias correções ortográficas;
+- Edição de 99,9% dos gráficos comprimidos.
+[/spoiler]
+
+[b]Versão 1.0[/b] - 25/12/06
+[spoiler]
+Primeiro lançamento. Versão Européia
+- Tradução inicial de todos os scripts;
+- Acentuação da fonte, graças às orientações do spyblack.
+[/spoiler]
+
+—————————————————–
+[b]Vídeo da Versão Dublada[/b]
+—————————————————–
+
+[youtube]-GIuZxBo5Z0[/youtube]
+
+—————————————————–
+[b]Imagens[/b]
+—————————————————–
+
+[img width=320]https://i.imgur.com/z0JDfpo.gif[/img] [img width=320]https://i.imgur.com/urvMjJE.gif[/img]
+[img width=320]https://i.imgur.com/wec1RhJ.gif[/img] [img width=320]https://i.imgur.com/OR0x6Bj.gif[/img]
+[img width=320]https://i.imgur.com/9B7fMC3.png[/img] [img width=320]https://i.imgur.com/tziz3mr.png[/img]
+
+—————————————————–
+[b]Download do patch[/b]
+—————————————————–
+
+em anexo abaixo (visível apenas para usuários cadastrados)
