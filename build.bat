@@ -1,11 +1,12 @@
 :: Arquivo .bat que remonta a rom traduzida.
-:: Uso: build.bat [-recolor] [-sotc] [-dublagem] [-betterdroprates] [-randomizer=SEED]
+:: Uso: build.bat [-recolor] [-sotc] [-dublagem] [-betterdroprates] [-fixexpborder] [-randomizer=SEED]
 :: Onde:
 ::   -recolor: Aplica o patch de recoloração (opcional)
 ::   -sotc: Aplica o patch de Symphony of the Colors (opcional, não pode
 ::          ser usado junto com -recolor)
 ::   -dublagem: Insere os arquivos de dublagem (opcional)
 ::   -betterdroprates: Aplica o patch de melhores taxas de drop (opcional)
+::   -fixexpborder: Aplica o patch de conserto da borda de EXP no menu (opcional)
 ::   -randomizer=SEED: Usa a rom randomizada com a seed SEED (opcional)
 ::                     (gera erro se o arquivo não existir)
 @echo off
@@ -17,6 +18,7 @@ set recolor=0
 set sotc=0
 set dublagem=0
 set betterdroprates=0
+set fixexpborder=0
 set randomizer=0
 set randomizer_seed=0
 
@@ -26,6 +28,7 @@ for %%A in (%*) do (
     if /I "%%A"=="-sotc" set sotc=1
     if /I "%%A"=="-dublagem" set dublagem=1
     if /I "%%A"=="-betterdroprates" set betterdroprates=1
+    if /I "%%A"=="-fixexpborder" set fixexpborder=1
 
     REM Checa se argumento começa com -randomizer=
     echo %%A | findstr /B /I "\-randomizer" >nul
@@ -70,6 +73,11 @@ if !sotc! equ 1 (
 if !betterdroprates! equ 1 (
     echo ==Aplicando IPS do better drop rates.==
     .\Ferramentas\flips.exe --apply ".\Arquivos Patches\betterdroprates\Castlevania Aria of Sorrow Better Drop Rates.ips" .\caos.gba .\caos.gba
+)
+
+if !fixexpborder! equ 1 (
+    echo ==Aplicando IPS do conserto da borda de EXP.==
+    .\Ferramentas\flips.exe --apply ".\Arquivos Patches\fixexpborder\Fix EXP Border.ips" .\caos.gba .\caos.gba
 )
 
 echo ==Expandindo a rom para 16mb.==
@@ -143,6 +151,11 @@ if !dublagem! equ 1 (
     )
     echo ==Inserindo dublagem.==
     .\Ferramentas\armips-lzss\armips-lzss-v1.exe .\Asm\inseredub.asm
+)
+
+if !randomizer! equ 1 (
+    echo ==Aplicando fixes pos-randomizer.==
+    .\Ferramentas\armips-lzss\armips-lzss-v1.exe .\Asm\pos_randomizer.asm
 )
 
 echo Done.

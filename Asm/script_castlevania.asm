@@ -1674,7 +1674,7 @@ string_072:
 
 string_073:
   .stringn "<01><00>\"Existe um inimigo que se move", 0x06
-  .stringn "à velocidades extremamente", 0x06
+  .stringn "a velocidades extremamente", 0x06
   .stringn "rápidas.", 0x06
   .stringn "<05><09>É tão rápido que é invisível.", 0x06
   .stringn "Se você puder parar o tempo,", 0x06
@@ -2046,7 +2046,7 @@ string_133:
   db 0x0A
 
 string_134:
-  .stringn "<01><00>Esp. de Rahab"
+  .stringn "<01><00>Gelo de Rahab"
   db 0x0A
 
 string_135:
@@ -2066,7 +2066,7 @@ string_138:
   db 0x0A
 
 string_139:
-  .stringn "<01><00>Vjaya"
+  .stringn "<01><00>Raio de Indra"
   db 0x0A
 
 string_140:
@@ -2614,7 +2614,7 @@ string_275:
   db 0x0A
 
 string_276:
-  .stringn "<01><00>Balore"
+  .stringn "<01><00>Balor"
   db 0x0A
 
 string_277:
@@ -2742,7 +2742,7 @@ string_307:
   db 0x0A
 
 string_308:
-  .stringn "<01><00>Skula"
+  .stringn "<01><00>Cila"
   db 0x0A
 
 string_309:
@@ -4786,7 +4786,7 @@ string_713:
   db 0x0A
 
 string_714:
-  .stringn "<01><00>Balore"
+  .stringn "<01><00>Balor"
   db 0x0A
 
 string_715:
