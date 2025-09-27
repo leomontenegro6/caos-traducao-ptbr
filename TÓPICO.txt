@@ -9,7 +9,7 @@
 [b]Gênero[/b]: Plataforma / Metroidvania / RPG de Ação
 [b]Grupo:[/b] Trans-Center
 [b]Responsável:[/b] Solid_One
-[b]Versão:[/b] Européia
+[b]Versão:[/b] Americana
 [b]Jogadores[/b]: 1
 
 —————————————————–
@@ -32,13 +32,13 @@ Começa então sua jornada pelo castelo para descobrir a verdade sobre esses seu
 [b]Sobre a tradução[/b]
 —————————————————–
 
-Comecei a traduzir esse jogo mais ou menos em outubro de 2006, visto que não havia tradução decente desse jogo na época. É um dos melhores jogos de GBA, e entre os três jogos de Castlevania lançados pra Gameboy Advance, esse é considerado o melhor.
+Comecei a traduzir esse jogo mais ou menos em outubro de 2006, visto que a tradução existente na época não estava tão completa assim. É um dos melhores jogos de GBA, e entre os três jogos de Castlevania lançados pra Gameboy Advance, esse é considerado o melhor.
 
-A iniciativa primeiramente foi do spyblack nos tempos que ele era da MiB. Foi ele que descobriu os alfabetos do jogo e também ele quem fez a primeira imagem de splash do CAOS.
+A iniciativa primeiramente foi do spyblack nos tempos que ele era da MiB. Foi ele que descobriu os alfabetos do jogo e também ele quem fez a primeira imagem de splash do CAOS, juntamente ao kmikz.
 
 Tive que pesquisar vários detalhes sobre nomes de espadas usadas em guerras no passado, nomes de alguns ítens (mais destacadamente as "guloseimas"), alguns nomes de inimigos na qual foram inspirados em várias mitologias, etc.
 
-A maior parte dos textos foi facilmente encontrada. E sobre os acentos, como usei a rom européia, o alfabeto já possuía vários acentos e caracteres provindos do idioma francês e do alemão. Como não haviam todos, e o spyblack havia achado o alfabeto, eu troquei alguns caracteres acentuados inúteis, como "ù", "ì", "ö", pelos que faltavam. Por isso que, se por acaso alguém escolher o idioma francês ou alemão, eles estarão com uns caracteres estranhos, sem falar que talvez parte dos gráficos estejam em português ao invés de alemão ou francês.
+A maior parte dos textos foi facilmente encontrada. E sobre os acentos, o alfabeto já possuía vários acentos e caracteres provindos dos idiomas francês e do alemão. Como não haviam todos, e o spyblack havia achado o alfabeto, eu troquei alguns caracteres acentuados inúteis, como "ù", "ì", "ö", pelos que faltavam.
 
 Posteriormente, praticamente tudo quanto é gráfico comprimido desse jogo foi modificado. Vários nomes que realmente mereciam ser modificados, o foram. Tudo isso graças ao grande membro da TC chamado Fallen_Soul e seus esforços quanto a isso. Sem ele, as versões posteriores à 1.0 ainda não existiriam.
 
@@ -48,7 +48,15 @@ A versão 2.2 da tradução foi lançada em 2017, sendo a definitiva até então
 
 Já esta versão 2.3 nova, ela basicamente conta com uma fandublagem para português brasileiro, iniciada pelo grupo "Stardust Studios" no começo de 2024, e disponibilizada no fim do mesmo. Foi criada com muito afinco por alguns fandubladores que conseguiram dar voz a todos os personagens e monstros do jogo que possuíam vozes em japonês. Junto a áudios com qualidade bem próxima aos originais, essa versão também conta com splash-screens novas, cortesia de um colega romhacker chamado bMatSantos. Para os que prefiram as vozes originais em japonês, também foi disponibilizada uma versão para este fim.
 
-Esperamos que apreciem este trabalho, tanto quanto nós.
+Por fim, a versão 2.4 contempla revisões finais pra terminar a sincronização com a tradução do Dawn of Sorrow, mediante revisões de bestiário provindas do Neko Belmont. Mas mais importante do que isso, foi que optamos por migrar a tradução inteira da versão européia para a americana, tornada possível graças ao novo dumper/inserter de textos em ARMIPS feito pelo Breno, bem como expandir a rom para 16mb e inserir todos os assets traduzidos para o final da região dos 16mb. Com isso, agora a tradução estará compatível com teoricamente a grande maioria dos patches de aprimoramentos dos fãs, como por exemplo:
+
+[list]
+  [li][url="https://www.romhacking.net/hacks/6301/"]Recolor / SOTC por JonataGuitar[/url]: Aprimora as paletas originais do jogo para tons mais escuros e menos saturados, tanto na versão básica como na Symphony of the Colors.[/li]
+  [li][url="https://www.romhacking.net/hacks/8805/"]Definitive Edition[/url]: Combina vários aprimoramentos gerais, como melhores chances de drops, correções de menus, novas armas, etc.[/li]
+  [li][url="https://aosrando.surge.sh/"]Aria of Sorrow Randomizer 2[/url]: Permite gerar versões do jogo completamente aleatorizadas, com posições de inimigos, drops de almas e itens, áreas, etc. Para mais informações, veja a seção de perguntas e respostas.[/li]
+[/list]
+
+Parando pra pensar, esse certamente foi a tradução que mais tenho revisitado ao longo dos anos. Esperamos que apreciem este trabalho, tanto quanto nós.
 
 —————————————————–
 [b]Equipe[/b]
@@ -59,14 +67,17 @@ Esperamos que apreciem este trabalho, tanto quanto nós.
 [li]Fallen_Soul : Romhacking;[/li]
 [li]spyblack : Suporte.[/li]
 [li]kmikz : Primeira splash-screen.[/li]
+[li]Neko Belmont : Revisão, gráficos e sugestões do bestiário.[/li]
+[li]Breno : Nova ferramenta de dumper/inserter em ARMIPS.[/li]
 [li]bMatSantos : Novas splash-screens.[/li]
+[li]victoriemini : Artes de capa.[/li]
 [li]Stardust Studios : Dublagem português brasileira, feita pelos membros:
 [list]
       [li]Neko Belmont : Direção de Dublagem.[/li]
       [li]Máquina de Dublagens : Voz de Soma Cruz.[/li]
       [li]Catymy : Vozes de Mina Hakuba, Yoko Belnades, e a Aprendiz de Bruxa.[/li]
       [li]David Mendes : Vozes de Graham Jones, Alastor, Cagnazzo, Lubicante e Caça-Cabeças (fase 3).[/li]
-      [li]Edson Santos : Vozes de Julius Belmont, Caça-Cabeças (fase 2), e Balore.[/li]
+      [li]Edson Santos : Vozes de Julius Belmont, Caça-Cabeças (fase 2), e Balor.[/li]
       [li]Harukandy : Vozes de Perséfone, Kali e Valquíria.[/li]
       [li]Mikansora : Vozes do Hammer e do Diabo.[/li]
       [li]Cammy Kaishi : Vozes da Súcubo e da Caça-Cabeças (fase 1).[/li]
@@ -85,65 +96,37 @@ Esperamos que apreciem este trabalho, tanto quanto nós.
 [b]Áudios:[/b] 100%
 
 —————————————————–
-[b]Ferramentas[/b]
+Ferramentas Utilizadas/Desenvolvidas
 —————————————————–
 
-[i]- CAOSFUCkER[/i]
-
-Esse foi o programa que Fallen_Soul desenvolveu. Com ele, dá pra extrair e reinserir 99,9% dos gráficos/tilemaps do jogo. Extrai e reinsere todos os gráficos que aparecem na versão européia, quando se escolhe o idioma inglês. Toda a parte gráfica comprimida, eu editei usando este programa.
-
-O programa extrai todos os gráficos para uma subpasta de nome GFX que está junto ao programa, para o usuário editar. Pelo Tile Molester, Você pode editar os arquivos usando o codec 4bpp linear reversed-order, que é usado pela maioria esmagadora dos jogos de GBA, e alguns de DS. Caso queira pelo Tile Layer Pro, basta escolher o formato para GBA que deve servir. Na reinserção, o programa recomprime os dados e os insere a partir do endereço de memória 0x00700000, inserindo todos em sequência, um após o outro.
-
-Para usar o programa, é por linha de comando. Em suma, o programa é simples e possui apenas dois comandos:
-"caosGfx.exe -d <NomeDoArquivoDaRom>" e "caosGfx.exe -i <NomeDoArquivoDaRom>"
-
-Com a primeira opção "-d" ([b]D[/b]ump), o programa extrai os dados. E com a segunda opção "-i" ([b]I[/b]nsert), o programa reinsere os dados.
-
-A única coisa na rom que o programa não extrai/reinsere ainda, é o tilemap referente aos créditos finais do jogo. Mas de resto, dá pra alterar tudo.
-
-O link de download da ferramenta está nos anexos, no rodapé do tópico.
-
-[i]- CAOS Dumper / Inserter[/i]
-
-Esse foi uma ferramenta que eu desenvolvi em Pascal lá em 2009 para extrair e reinserir os textos da versão européia do jogo, tomando por base as tabelas de ponteiros. Foi um dos primeiros dumper/inserter que eu desenvolvi.
-
-O programa extrai todos os textos do jogo para um arquivo de nome "CAOSSCPT.txt", utilizando de uma separação de tags rudimentar, separando blocos em traços e usando elementos em sintaxe similar a HTML para simular as tags de controle do jogo. Há um suporte básico à fonte acentuada provindo da rom européia, exceto que fazendo a troca de caracteres como "ä" para "ã" por exemplo.
-
-De forma similar, o programa também é capaz de reinserir os scripts do jogo, atualizando automaticamente a tabela de ponteiros, permitindo ao usuário contornar quaisquer problemas de falta de espaço. Na reinserção, o programa insere os textos a partir do endereço de memória 0x006511C0.
-
-Para usar o programa, é por linha de comando. Basta seguir os passos:
-
-[list type=decimal]
-[li]Crie uma cópia da rom original e copie-a para a mesma pasta onde situa-se o executável CAOS_DI.exe;[/li]
-[li]Renomeie a rom para um nome simples, preferencialmente em padrão 8.3. Ex.: caos_e.gba;[/li]
-[li]Execute o programa e digite o nome do arquivo da rom, quando solicitado (caos_e.gba);[/li]
-[li]Em seguida, digite o código da operação que deseja realizar, onde 'e' extrai textos e 'i' insere;[/li]
-[li]Se optado por extrair, o programa criará o arquivo CAOSSCPT.txt, para posterior tradução. Se optado por inserir, ele modificará a rom fornecida, tomando por base a existência do arquivo CAOSSCPT.txt na mesma pasta, bem como levando em consideração as modificações feitas no mesmo.[/li]
+[list]
+[li][b][url="https://github.com/leomontenegro6/caos-traducao-ptbr/tree/master/Ferramentas%20Antigas/caosGfx"]caosGfx[/url][/b] : Dumper/inserter de gráficos original, usado na versão européia.[/li]
+[li][b][url="https://github.com/leomontenegro6/caos-traducao-ptbr/tree/master/Ferramentas%20Antigas/CAOS_DI"]CAOS Dumper / Inserter[/url][/b] : Dumper/inserter de textos original, usado na versão européia.[/li]
+[li][b][url="https://github.com/leomontenegro6/caos-traducao-ptbr/tree/master/Ferramentas%20Antigas/CAOS_DI"]CAOS VWF Liner[/url][/b] : Analisador do script do dumper/inserter de textos original.[/li]
+[li][b][url="https://mh-nexus.de/en/hxd/"]HxD Hex Editor[/url][/b] : Editor hexadecimal usado para edições diversas;[/li]
+[li][b][url="https://www.romhacking.net/utilities/291/"]WindHex[/url][/b] : Editor hexadecimal usado para edições diversas;[/li]
+[li][b][url="https://code.visualstudio.com/"]Visual Studio Code[/url][/b] : Utilizado para traduzir os scripts em ARMIPS, cortesia do Breno;[/li]
+[li][b][url="https://github.com/Kingcom/armips"]armips assembler[/url][/b] : Ferramenta utilizada para remontar a rom, após edições;[/li]
+[li][b][url="https://www.romhacking.net/utilities/1583/"]Tile Molester 0.21[/url][/b] : Editor de tiles usado para edição dos gráficos do jogo.[/li]
 [/list]
 
-O link de download da ferramenta também está nos anexos, no rodapé do tópico.
-
-[i]- CAOS VWF Liner[/i]
-
-Essa foi uma ferramenta complementar ao Dumper / Inserter acima, e seu propósito é analisar os textos do CAOSSCPT.txt, linha por linha, de modo a identificar quais delas passarão da margem da janela ou não. Eu a criei pra agilizar no processo de revisão e teste ingame.
-
-A ferramenta funciona da seguinte maneira: 
-
-[list type=decimal]
-[li]Toma-se por base a largura, em píxels, de cada caractere da fonte VWF dos textos do jogo;[/li]
-[li]Toma-se por base a largura, em píxels, da janela de textos comum, que é de cerca de 170 píxels;[/li]
-[li]Calcula a somatória de píxels de todos os caracteres de uma determinada linha de diálogo;[/li]
-[li]Compara a somatória do item acima com a largura da janela;[/li]
-[li]Se a somatória do item 3 passar a do item 4, é emitido um aviso na tela dizendo a linha do ocorrido e a quantidade de píxels que ultrapassou.[/li]
-[/list]
-
-Para usar o programa, basta garantir que tanto o executável "CAOS_VWF.EXE" como o arquivo "CAOSSCPT.txt" estejam na mesma pasta, e executar o programa.
-
-A ferramenta está junto com o link do Dumper / Inserter citado acima, no rodapé do tópico.
+Para mais informações a nível de ferramentas, consulte o [url=https://github.com/leomontenegro6/caos-traducao-ptbr]repositório do Github[/url] do projeto.
 
 —————————————————–
 [b]Changelog[/b]
 —————————————————–
+
+[b]Versão 2.4[/b] - 27/09/25
+Sexto lançamento. Versão Americana
+- Migrada tradução da versão européia para a americana, para torná-la compatível com vários hacks de aprimoramento e randomizers;
+- Revisão de bestiários, itens e equipáveis, de modo a sincronizar termos com outras traduções. Foram alterados termos como:
+  - Skula -> Cila;
+  - Balore -> Balor;
+  - Imitador -> Mímico;
+  - Esp. de Rahab -> Gelo de Rahab;
+  - VJaya -> Raio de Indra.
+- Efetuados aprimoramentos menores nas fontes do jogo;
+- Atualizadas splash-screens com a inclusão de mais membros.
 
 [b]Versão 2.3[/b] - 31/12/24
 Quinto lançamento. Versão Européia
@@ -181,6 +164,42 @@ Primeiro lançamento. Versão Européia
 [/spoiler]
 
 —————————————————–
+[b]Agradecimentos[/b]
+—————————————————–
+
+[list]
+[li]Konami e Koji Igarashi, por ter lançado o jogo;[/li]
+[li]Aos membros da equipe antiga de 2006, por todo o esforço que tornou possível as versões iniciais;[/li]
+[li]À nova equipe, sobretudo aos parças Breno, Neko Belmont e bMatSantos, que tornaram possível essa nova versão (e ao djmatheusito, pra ele não ficar uma arara kkk);[/li]
+[li]Ao victoriemini, pelas artes de capas.[/li]
+[/list]
+
+—————————————————–
+[b]Perguntas e Respostas[/b]
+—————————————————–
+
+P1: Como eu faço para combinar a tradução com os patches de aprimoramento, como Recolor e Definitive Edition por exemplo?
+
+R1: Recomendo que primeiro aplique os patches de aprimoramento, e em seguida o patch de tradução da versão americana (com ou sem dublagem), para ter os melhores resultados. Dessa forma, ambos os assets deverão ser combinados sem conflitarem, e com a tradução sendo aplicada por último, os ponteiros modificados acabam por prevalecer com os valores da tradução, resultando em mais assets traduzidos. Foi desta forma que combinei o Recolor com a tradução, e joguei até o final sem problemas.
+
+P2: Vi que a versão nova aumentou o tamanho da ROM de 8mb para 16mb. Por que isso foi feito, se a rom tem espaço de sobra e não precisaria expandir?
+
+R2: Isso foi feito para que a tradução seja compatível com a maioria dos hacks, e para que o processo de patching seja simples sem necessitar de uma ferramenta de patcher. Para emuladores isso deve funcionar sem problemas, e chuto que também deva funcionar em hardware real até certo ponto.
+
+P3: Tentei combinar o Recolor com o Definitive Edition, e muito embora o jogo tenha ficado traduzido, deu diversos conflitos e bugs gráficos. Isso é normal?
+
+R3: Dependendo dos hacks de aprimoramento usados, nem todos são compatíveis entre si. O Definitive Edition, por exemplo, já contém em parte assets do Recolor, que pode gerar conflitos. É algo que deve ocorrer até mesmo nas roms originais, e que você precisará experimentar com cautela.
+
+P4: Como eu faço para fazer a tradução funcionar com randomizers?
+
+R4: Para roms randomizadas funcionarem, o processo é um pouquinho mais trabalhoso. Para isso, siga os passos:
+1. Gere uma rom randomizada no site do randomizer (https://aosrando.surge.sh/), escolhendo as opções que desejar;
+2. Opcionalmente, aplique patches de aprimoramento da sua preferência, como Recolor por exemplo;
+3. Aplique o patch de tradução da versão americana (com ou sem dublagem), o que deve garantir que a maioria dos assets traduzidos prevaleçam;
+4. Aplique o patch de consertos pós-randomizador, para desfazer determinados assets da tradução que podem conflitar com o randomizer.
+Dessa maneira, eu consegui zerar o jogo randomizado com dois seeds diferentes, ambos com a tradução funcionando perfeitamente.
+
+—————————————————–
 [b]Vídeo da Versão Dublada[/b]
 —————————————————–
 
@@ -190,12 +209,17 @@ Primeiro lançamento. Versão Européia
 [b]Imagens[/b]
 —————————————————–
 
+Versão Original:
 [img width=320]https://i.imgur.com/z0JDfpo.gif[/img] [img width=320]https://i.imgur.com/urvMjJE.gif[/img]
 [img width=320]https://i.imgur.com/wec1RhJ.gif[/img] [img width=320]https://i.imgur.com/OR0x6Bj.gif[/img]
-[img width=320]https://i.imgur.com/9B7fMC3.png[/img] [img width=320]https://i.imgur.com/tziz3mr.png[/img]
+
+Versão Recolor/SOTC:
+[img][/img] [img][/img]
 
 —————————————————–
-[b]Download do patch[/b]
+[b]Patch[/b]
 —————————————————–
 
-em anexo abaixo (visível apenas para usuários cadastrados)
+O patch de tradução está disponível na seção de releases desse repositório. Está em formato IPS, e vocês podem aplicá-los através de programas como [url="https://www.romhacking.net/utilities/1040/"]Floating IPS[/url] ou similares.
+
+Esta tradução pode ser aplicada na ROM "Castlevania - Aria of Sorrow (U) [!].gba", com CRC32 35536183.

@@ -50,7 +50,11 @@ A versão 2.2 da tradução foi lançada em 2017, sendo a definitiva até então
 
 Já esta versão 2.3 nova, ela basicamente conta com uma fandublagem para português brasileiro, iniciada pelo grupo "Stardust Studios" no começo de 2024, e disponibilizada no fim do mesmo. Foi criada com muito afinco por alguns fandubladores que conseguiram dar voz a todos os personagens e monstros do jogo que possuíam vozes em japonês. Junto a áudios com qualidade bem próxima aos originais, essa versão também conta com splash-screens novas, cortesia de um colega romhacker chamado bMatSantos. Para os que prefiram as vozes originais em japonês, também foi disponibilizada uma versão para este fim.
 
-Por fim, a versão 2.4 contempla revisões finais pra terminar a sincronização com a tradução do Dawn of Sorrow, mediante revisões de bestiário provindas do Neko Belmont. Mas mais importante do que isso, foi que optamos por migrar a tradução inteira da versão européia para a americana, tornada possível graças ao novo dumper/inserter de textos em ARMIPS feito pelo Breno, bem como expandir a rom para 16mb e inserir todos os assets traduzidos para o final da região dos 16mb. Com isso, agora a tradução estará compatível com teoricamente a grande maioria dos patches de aprimoramentos dos fãs, como por exemplo recolorizações de paletas, versões definitivas, randomizers, etc.
+Por fim, a versão 2.4 contempla revisões finais pra terminar a sincronização com a tradução do Dawn of Sorrow, mediante revisões de bestiário provindas do Neko Belmont. Mas mais importante do que isso, foi que optamos por migrar a tradução inteira da versão européia para a americana, tornada possível graças ao novo dumper/inserter de textos em ARMIPS feito pelo Breno, bem como expandir a rom para 16mb e inserir todos os assets traduzidos para o final da região dos 16mb. Com isso, agora a tradução estará compatível com teoricamente a grande maioria dos patches de aprimoramentos dos fãs, como:
+
+- [Recolor / SOTC por JonataGuitar]("https://www.romhacking.net/hacks/6301/"): Aprimora as paletas originais do jogo para tons mais escuros e menos saturados, tanto na versão básica como na Symphony of the Colors.
+- [Definitive Edition]("https://www.romhacking.net/hacks/8805/"): Combina vários aprimoramentos gerais, como melhores chances de drops, correções de menus, novas armas, etc.
+- [Aria of Sorrow Randomizer 2]("https://aosrando.surge.sh/"): Permite gerar versões do jogo completamente aleatorizadas, com posições de inimigos, drops de almas e itens, áreas, etc. Para mais informações, veja a seção de perguntas e respostas.
 
 Parando pra pensar, esse certamente foi a tradução que mais tenho revisitado ao longo dos anos. Esperamos que apreciem este trabalho, tanto quanto nós.
 
@@ -63,14 +67,13 @@ Parando pra pensar, esse certamente foi a tradução que mais tenho revisitado a
 - **Neko Belmont**: Revisão, gráficos e sugestões do bestiário;
 - **Breno**: Nova ferramenta de dumper/inserter em ARMIPS;
 - **bMatSantos**: Novas splash-screens;
-- **denim**: Romhacking e suporte;
 - **victoriemini**: Artes de capa.
 - **Stardust Studios**: Dublagem português brasileira, feita pelos membros:
   - **Neko Belmont** : Direção de Dublagem.
   - **Máquina de Dublagens** : Voz de Soma Cruz.
   - **Catymy** : Vozes de Mina Hakuba, Yoko Belnades, e a Aprendiz de Bruxa.
   - **David Mendes** : Vozes de Graham Jones, Alastor, Cagnazzo, Lubicante e Caça-Cabeças (fase 3).
-  - **Edson Santos** : Vozes de Julius Belmont, Caça-Cabeças (fase 2), e Balore.
+  - **Edson Santos** : Vozes de Julius Belmont, Caça-Cabeças (fase 2), e Balor.
   - **Harukandy** : Vozes de Perséfone, Kali e Valquíria.
   - **Mikansora** : Vozes do Hammer e do Diabo.
   - **Cammy Kaishi** : Vozes da Súcubo e da Caça-Cabeças (fase 1).
@@ -87,13 +90,26 @@ Revisão: 100%
 
 # Perguntas e Respostas
 
-**P1**: Como eu faço para combinar a tradução com os patches de aprimoramento, como Recolor, Definitive Edition e Randomizers por exemplo?
+**P1**: Como eu faço para combinar a tradução com os patches de aprimoramento, como Recolor e Definitive Edition por exemplo?
 
-**R1**: Recomendo que primeiro aplique os patches de aprimoramento, e em seguida o patch de tradução da versão americana, para ter os melhores resultados. Dessa forma, ambos os assets deverão ser combinados sem conflitarem, e com a tradução sendo aplicada por último, os ponteiros modificados acabam por prevalecer com os valores da tradução, resultando em mais assets traduzidos. Foi desta forma que combinei o Recolor com a tradução, e joguei até o final sem problemas.
+**R1**: Recomendo que primeiro aplique os patches de aprimoramento, e em seguida o patch de tradução da versão americana (com ou sem dublagem), para ter os melhores resultados. Dessa forma, ambos os assets deverão ser combinados sem conflitarem, e com a tradução sendo aplicada por último, os ponteiros modificados acabam por prevalecer com os valores da tradução, resultando em mais assets traduzidos. Foi desta forma que combinei o Recolor com a tradução, e joguei até o final sem problemas.
 
-**P3**: Vi que a versão nova aumentou o tamanho da ROM de 8mb para 16mb. Por que isso foi feito, se a rom tem espaço de sobra e não precisaria expandir?
+**P2**: Vi que a versão nova aumentou o tamanho da ROM de 8mb para 16mb. Por que isso foi feito, se a rom tem espaço de sobra e não precisaria expandir?
 
-**R3**: Isso foi feito para que a tradução seja compatível com a maioria dos hacks, e para que o processo de patching seja simples sem necessitar de uma ferramenta de patcher. Para emuladores isso deve funcionar sem problemas, e chuto que também deva funcionar em hardware real até certo ponto.
+**R2**: Isso foi feito para que a tradução seja compatível com a maioria dos hacks, e para que o processo de patching seja simples sem necessitar de uma ferramenta de patcher. Para emuladores isso deve funcionar sem problemas, e chuto que também deva funcionar em hardware real até certo ponto.
+
+**P3**: Tentei combinar o Recolor com o Definitive Edition, e muito embora o jogo tenha ficado traduzido, deu diversos conflitos e bugs gráficos. Isso é normal?
+
+**R3**: Dependendo dos hacks de aprimoramento usados, nem todos são compatíveis entre si. O Definitive Edition, por exemplo, já contém em parte assets do Recolor, que pode gerar conflitos. É algo que deve ocorrer até mesmo nas roms originais, e que você precisará experimentar com cautela.
+
+**P4**: Como eu faço para fazer a tradução funcionar com randomizers?
+
+**R4**: Para roms randomizadas funcionarem, o processo é um pouquinho mais trabalhoso. Para isso, siga os passos:
+1. Gere uma rom randomizada no site do randomizer (https://aosrando.surge.sh/), escolhendo as opções que desejar;
+2. Opcionalmente, aplique patches de aprimoramento da sua preferência, como Recolor por exemplo;
+3. Aplique o patch de tradução da versão americana (com ou sem dublagem), o que deve garantir que a maioria dos assets traduzidos prevaleçam;
+4. Aplique o patch de consertos pós-randomizador, para desfazer determinados assets da tradução que podem conflitar com o randomizer.
+Dessa maneira, eu consegui zerar o jogo randomizado com dois seeds diferentes, ambos com a tradução funcionando perfeitamente.
 
 # Imagens
 
